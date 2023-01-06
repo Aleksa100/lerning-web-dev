@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #d7c6d9;
+}
+main {
+  text-align: left;
+  background-color: rgb(157, 111, 231);
+  font-family: "Fira sans";
+  padding: 25px 50px 25px 50px;
+  margin: 0px 50px 0px 50px;
+  border: 20px;
+  border-radius: 20px;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-family: "Fira sans";
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: "Roboto";
+}
+h1 {
+  font-family: "Roboto";
+  color: rgb(140, 95, 211);
+  text-align: center;
+}
+footer {
+  margin-top: 25px;
+}
+
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: rgb(250, 201, 39);
+  color: rgb(66, 51, 4);
+}
+.Zuta {
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
+}
+.Vazno {
+  color: black;
+  background-color: rgb(229, 232, 140);
+  padding: 5px 3px 5px 3px;
+  border-radius: 3px;
+}
+#HTML-slika {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 35px;
+}
+#HTML-naslov {
+  display: inline-block;
+  margin-top: 30px;
+}
