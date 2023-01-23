@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stleys.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>HTML input</title>
+</head>
+
+<body>
+    <header>
+        <h1>Forum</h1>
+    </header>
+    <main>
+        <form action="/projekat 4/index.html" method="get">
+            <section>
+                <h2>Your information</h2>
+                <ul>
+                    <li>
+                        <label for="userinput">Your name</label>
+                        <input type="text" name="user-input" id="userinput" required>
+                    </li>
+                    <li>
+                        <label for="useremail">Your email</label>
+                        <input type="email" name="user-email" id="useremail">
+                    </li>
+                    <li>
+                        <label for="userpassword">Your pasword</label>
+                        <input type="password" name="user-password" id="userpassword" required minlength="7">
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>More information</h2>
+                <ul>
+                    <li>
+                        <label for="usernumber">Your age</label>
+                        <input type="number" name="user-number" id="usernumber" required min="18" max="100">
+                    </li>
+                    <li>
+                        <label for="userdate">Your birth day</label>
+                        <input type="date" name="user-date" id="userdate">
+                    </li>
+                    <li>
+                        <label for="fafourite-color">What is your fafourite color</label>
+                        <select name="" id="fafourite-color">
+                            <option value="blue">Blue</option>
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                        </select>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <div>
+                    <label for="message">Your message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+            </section>
+            <section>
+                <h2>Verifycation options</h2>
+                <ul>
+                    <li class="form-control-inline">
+                        <input type="radio" id="verify-text-message" name="verify">
+                        <label for="verify-text-message">Via text message (SMS)</label>
+                    </li>
+                    <li class="form-control-inline">
+                        <input type="radio" id="verify-phone" name="verify">
+                        <label for="verify-phone">Via call</label>
+                    </li>
+                    <li class="form-control-inline">
+                        <input type="radio" id="verify-email" name="verify">
+                        <label for="verify-email">Via email</label>
+                    </li>
+                    <li class="form-control-inline">
+                        <label for="content-email">Content via email</label>
+                        <input type="checkbox" id="content-email" name="content-email" value="email">
+                    </li>
+                    <li class="form-control-inline">
+                        <label for="content-phone">Content via phone</label>
+                        <input type="checkbox" id="content-phone" name="content-phone" value="phone">
+
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <div class="form-control-inline">
+                    <label for="terms">Agre to terms</label>
+                    <input type="checkbox" id="terms" name="terms">
+                </div>
+            </section>
+
+            <section>
+                <button>Submit</button>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>
